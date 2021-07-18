@@ -1,0 +1,176 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap';
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+
+html {
+    --white: #f7f7f7;
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+
+    font-size: 62.5%; /* 10px */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--violet);
+    background-image: url("../public/bg-desktop.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.content {
+    /* border: 1px solid red; */
+    height: 100vh;
+    /* width: min(154rem, 90%); */
+    width: min(137rem, 90%);
+    margin: 0 auto;
+}
+
+/* ---------- HEADER ---------- */
+header .logo {
+    width: 30rem;
+    /* border: 1px solid red; */
+    padding: 32px 0;
+}
+
+header .logo img {
+    width: 200px;
+}
+
+/* ---------- BOX ---------- */
+.box {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 202px);
+}
+
+/* ---------- ILLUSTRATION ---------- */
+.illustration,
+.community {
+    width: 50%;
+}
+
+.illustration {
+    /* width: 70%; */
+    /* background-image: url("../public/bg-desktop.svg"); */
+    /* padding-top: 35px; */
+}
+
+.illustration img {
+    /* width: 82.6%; */
+    /* width: 90%; */
+    width: 93%;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ---------- COMMUNITY ---------- */
+.community h2 {
+    color: var(--white);
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+/* .community h2 span {
+    display: block;
+} */
+
+.community p {
+    color: var(--white);
+    font-family: 'Open Sans', sans-serif;
+    
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+/* 
+.community p span {
+    padding: 3px 0;
+    
+    display: block;
+} */
+
+/* ---------- BUTTON ---------- */
+.community .button {
+    background-color: var(--white);
+    color: var(--violet);
+    font-size: 18px;
+    box-shadow: 0px 5px 11px -2px #00000080;
+
+    padding: 16px 64px;
+    border-radius: 60px;
+
+    transition: 400ms;
+}
+
+.community .button:hover {
+    background-color: var(--soft-magenta);
+    color: var(--white);
+}
+
+/* ---------- Social Networks ---------- */
+.social-networks {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.social-networks div {
+    display: flex;
+}
+
+.social-networks div a {
+    margin-left: 20px;
+}
+
+.social-networks div a:nth-child(1) {
+    margin: 0;
+}
+
+.social-networks div a .circle {
+    border: 1px solid var(--white);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.social-networks div  a .circle {
+    color: var(--white);
+    font-size: 1.6rem;
+    transition: 300ms;
+}
+
+.social-networks div .circle:hover,
+.social-networks div .circle a:hover {
+    color: var(--soft-magenta);
+    border: 1px solid var(--soft-magenta);
+}
