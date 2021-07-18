@@ -87,6 +87,20 @@ header .logo img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    animation: illustrationImg 1.3s;
+}
+
+@keyframes illustrationImg {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        /* transform: translateX(0px); */
+        opacity: 1;
+    }
 }
 
 /* ---------- COMMUNITY ---------- */
@@ -94,6 +108,20 @@ header .logo img {
     color: var(--white);
     font-size: 4rem;
     margin-bottom: 20px;
+
+    animation: communityH2 600ms;
+}
+
+@keyframes communityH2 {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        /* transform: translateX(0px); */
+        opacity: 1;
+    }
 }
 
 /* .community h2 span {
@@ -108,6 +136,20 @@ header .logo img {
     margin-bottom: 40px;
     letter-spacing: 0.5px;
     line-height: 25px;
+
+    animation: communityP 1s;
+}
+
+@keyframes communityP {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    100% {
+        /* transform: translateX(0px); */
+        opacity: 1;
+    }
 }
 /* 
 .community p span {
@@ -126,7 +168,22 @@ header .logo img {
     padding: 16px 64px;
     border-radius: 60px;
 
-    transition: 400ms;
+    transition: background-color 400ms, color 400ms;
+
+    animation: communityButton 2s;
+}
+
+@keyframes communityButton {
+    0% {
+        /* transform: translateX(300px); */
+        opacity: 0;
+    }
+
+    100% {
+        /* transform: translateX(0px); */
+        width: 100%;
+        opacity: 1;
+    }
 }
 
 .community .button:hover {
