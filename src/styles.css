@@ -230,6 +230,10 @@ header .logo img {
 
 /* ---------- 700-543 */
 @media screen and (max-width: 700px) {
+    body {
+        background-image: url("../public/bg-mobile.svg");
+    }
+    
     header .logo {
         margin-left: 8%;
     }
