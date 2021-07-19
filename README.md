@@ -51,7 +51,7 @@ Os usuários devem ser capazes de:
 
 Neste desafio pude fixar muitos conhecimentos em CSS.<br>
 Para definir a largura máxima da minha **div content** que engloba toda minha estrutura **HTML**, utilizei a função [min()](https://developer.mozilla.org/en-US/docs/Web/CSS/min()) na propriedade **width** no código **CSS**.<br>
-Exemplificando melhor defini uma largura de 90%, que fica bacaninha, mais em telas maiores minha página tentaria cobrir os 90% de toda a tela sempre, deixando o design feio e estranho. Então para corrigir esse problema usei a função **min()**, desta maneira além de passar os 90% pude definir uma largura máxima de 137rem que seria 2192px convertidos, para que em telas excedentes, ele limitasse a largura, então mantendo o design agradável e bonito.
+Exemplificando melhor defini uma largura de 90%, que fica bacaninha, mais em telas maiores minha página tentaria cobrir os 90% de toda a tela sempre, deixando o design feio e estranho. Então para corrigir esse problema usei a função **min()**, desta maneira além de passar os 90% pude definir uma largura máxima de 137rem que seria 1370px convertidos, para que em telas excedentes, ele limitasse a largura, então mantendo o design agradável e bonito.
 
 Classe principal em minha estrutura HTML:
 
