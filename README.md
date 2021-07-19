@@ -34,7 +34,7 @@ Os usuários devem ser capazes de:
 
 ### **Links**
 
-- URL da solução: [Huddle landing page](https://your-solution-url.com)
+- URL da solução: [Huddle landing page](https://www.frontendmentor.io/solutions/html-css-TxG-NNgg7)
 - Site URL: [Huddle landing page](https://huddle-landing-page-competent.netlify.app/)
 
 ## Meu processo
