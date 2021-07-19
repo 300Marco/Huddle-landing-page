@@ -40,7 +40,7 @@ body {
 
 .content {
     height: 100vh;
-    width: min(137rem, 90%);
+    width: min(122.9rem, 90%);
     margin: 0 auto;
 }
 
@@ -62,9 +62,8 @@ header .logo img {
 }
 
 /* ---------- ILLUSTRATION ---------- */
-.illustration,
-.community {
-    width: 50%;
+.illustration {
+    width: 65%;
 }
 
 .illustration img {
@@ -90,6 +89,10 @@ header .logo img {
 }
 
 /* ---------- COMMUNITY ---------- */
+.community {
+    width: 50%;
+}
+
 .community h2 {
     color: var(--white);
     font-size: 4rem;
