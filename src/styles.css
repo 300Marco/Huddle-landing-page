@@ -212,7 +212,7 @@ header .logo img {
     border: 1px solid var(--soft-magenta);
 }
 
-.info{
+.info {
     color: var(--white);
 }
 
@@ -247,7 +247,18 @@ header .logo img {
 
     .social-networks {
         justify-content: center;
+        flex-direction: column;
     }
+
+    .social-networks div:nth-child(2) {
+        order: 1;
+    }
+
+    .social-networks div:nth-child(1) {
+        order: 2;
+        margin-top: 12px;
+    }
+
 }
 
 /* ---------- 700-543 */
