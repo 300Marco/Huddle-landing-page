@@ -170,7 +170,8 @@ header .logo img {
 /* ---------- Social Networks ---------- */
 .social-networks {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 12px 0;
 }
@@ -209,6 +210,23 @@ header .logo img {
 .social-networks div .circle a:hover {
     color: var(--soft-magenta);
     border: 1px solid var(--soft-magenta);
+}
+
+.info{
+    color: var(--white);
+}
+
+.info span:nth-child(1) {
+    margin-right: 5px;
+}
+
+.info a {
+    color: var(--soft-magenta);
+    font-size: 1.5rem;
+}
+
+.info a:hover {
+    text-decoration: underline;
 }
 
 /* ---------- RESPONSIVENESS ---------- */
