@@ -295,4 +295,8 @@ header .logo img {
     .community h2 {
         font-size: 2.8rem;
     }
+
+    .info a {
+        font-size: 1.2rem;
+    }
 }
