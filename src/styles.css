@@ -281,10 +281,11 @@ header .logo img {
     }
 }
 
-/* ---------- Up to 542*/
+/* ---------- 542-281*/
 @media screen and (max-width: 542px) {
     header .logo {
         margin-left: 2%;
+        width: initial;
     }
     
     .illustration, 
@@ -298,5 +299,12 @@ header .logo img {
 
     .info a {
         font-size: 1.2rem;
+    }
+}
+
+/* ---------- Up to 280*/
+@media screen and (max-width: 280px) {
+    .community .button {
+        padding: 1.6rem 8rem;
     }
 }
