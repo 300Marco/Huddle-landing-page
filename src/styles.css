@@ -184,6 +184,33 @@ header .logo img {
     margin-left: 20px;
 }
 
+/* -------------------------------------  testes*/
+.social-networks div a:nth-child(1) {
+    animation: testes 600ms ease-in-out;
+}
+
+.social-networks div a:nth-child(2) {
+    animation: testes 800ms ease-in-out;
+}
+
+.social-networks div a:nth-child(3) {
+    animation: testes 1s ease-in-out;
+}
+
+@keyframes testes {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* -------------------------------------  testes*/
+
+
 .social-networks div a:nth-child(1) {
     margin: 0;
 }
